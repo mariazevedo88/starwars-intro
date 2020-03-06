@@ -39,5 +39,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "engines": {
+    "node": ">=10.x"
   }
 }
