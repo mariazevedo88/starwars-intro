@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "build": "npm ci",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
