@@ -11,7 +11,7 @@ Star Wars film intro animation developed in HTML, CSS, JavaScript and Node.js (T
 * **[Express.js](https://expressjs.com/)**
 * **[Eslint](https://eslint.org/)**
 * **[Prettier](https://prettier.io/)**
-* **[Husky](https://www.npmjs.com/package/husky/v/3.0.0)**
+* **[Heroku](https://www.heroku.com/)**
 
 ## Build Setup
 
