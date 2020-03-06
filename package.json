@@ -6,9 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
-    "build": "npm ci",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "npm ci"
   },
   "repository": {
     "type": "git",
@@ -30,7 +28,6 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.20.1",
-    "gh-pages": "^2.2.0",
     "husky": "^4.2.3"
   },
   "husky": {
