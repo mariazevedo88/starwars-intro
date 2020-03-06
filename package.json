@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon",
-    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
