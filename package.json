@@ -1,0 +1,42 @@
+{
+  "name": "starwars-intro",
+  "version": "1.0.0",
+  "description": "Star Wars film intro animation developed in HTML, CSS, JavaScript and Node.js",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon",
+    "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariazevedo88/starwars-intro.git"
+  },
+  "author": "Mariana Azevedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariazevedo88/starwars-intro/issues"
+  },
+  "homepage": "https://github.com/mariazevedo88/starwars-intro#readme",
+  "dependencies": {
+    "eslint-friendly-formatter": "^4.0.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.20.1",
+    "husky": "^4.2.3"
+  },
+  "husky": {
+    "pre-commit": "lint-staged",
+    "pre-push": "npm run lint"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ]
+  }
+}
