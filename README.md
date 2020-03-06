@@ -5,7 +5,7 @@ Star Wars film intro animation developed in HTML, CSS, JavaScript and Node.js (T
 
 ![Image of the paragraphs](public/images/app.png)
 
-## Technologies 🚀
+## Technologies :computer:
 
 * **[Nodejs](https://nodejs.org/en/)**
 * **[Express.js](https://expressjs.com/)**
@@ -24,5 +24,8 @@ Star Wars film intro animation developed in HTML, CSS, JavaScript and Node.js (T
     nodemon
     
     # running with Node
-    node app.js
+    npm run start
 
+## Production :rocket:
+
+https://starwarsintro-mari.herokuapp.com/
