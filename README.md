@@ -1,9 +1,9 @@
 # starwars-intro
 Star Wars film intro animation developed in HTML, CSS, JavaScript and Node.js (Tutorial by glaucia86 - https://bit.ly/32UG73k)
 
-![Image of the intro](images/intro.png)
+![Image of the intro](public/images/intro.png)
 
-![Image of the paragraphs](images/app.png)
+![Image of the paragraphs](public/images/app.png)
 
 ## Technologies 🚀
 
