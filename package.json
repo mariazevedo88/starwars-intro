@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
-    "build": "npm ci"
+    "build": "npm ci",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",

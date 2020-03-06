@@ -13,4 +13,6 @@ app.get('/', (req, res) => {
     res.send('App - Intro Star Wars');
 });
 
-app.listen(3000, () => console.log('Running on port 3000!'));
+const port = process.env.PORT || 8080;
+
+app.listen(port, () => console.log('Running on port', port));
