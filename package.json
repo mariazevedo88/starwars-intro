@@ -22,7 +22,7 @@
   "dependencies": {
     "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.17.1",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.3",
     "npm-check-updates": "^4.0.4",
     "prettier": "^1.19.1"
   },
