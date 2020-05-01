@@ -7,7 +7,9 @@
     "dev": "nodemon",
     "lint": "eslint --ext .js -f ./node_modules/eslint-friendly-formatter . --fix",
     "build": "npm ci",
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,8 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.3",
     "npm-check-updates": "^4.0.5",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
@@ -44,5 +47,6 @@
   },
   "engines": {
     "node": ">=10.x"
-  }
+  },
+  "snyk": true
 }
