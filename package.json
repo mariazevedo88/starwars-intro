@@ -24,7 +24,7 @@
   "dependencies": {
     "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.17.1",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.5",
     "npm-check-updates": "^9.0.4",
     "prettier": "^2.1.2",
     "snyk": "^1.413.2"
