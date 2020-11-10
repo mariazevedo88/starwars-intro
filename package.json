@@ -24,14 +24,14 @@
   "dependencies": {
     "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.17.1",
-    "nodemon": "^2.0.5",
-    "npm-check-updates": "^9.1.0",
+    "nodemon": "^2.0.6",
+    "npm-check-updates": "^10.0.0",
     "prettier": "^2.1.2",
-    "snyk": "^1.415.0"
+    "snyk": "^1.425.1"
   },
   "devDependencies": {
-    "eslint": "^7.10.0",
-    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "husky": "^4.3.0"
   },
