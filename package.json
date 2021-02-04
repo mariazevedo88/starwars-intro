@@ -27,7 +27,7 @@
     "nodemon": "^2.0.7",
     "npm-check-updates": "^10.2.5",
     "prettier": "^2.2.1",
-    "snyk": "^1.437.3"
+    "snyk": "^1.437.4"
   },
   "devDependencies": {
     "eslint": "^7.16.0",
