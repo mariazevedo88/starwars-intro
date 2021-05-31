@@ -25,9 +25,9 @@
     "eslint-friendly-formatter": "^4.0.1",
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
-    "npm-check-updates": "^11.5.9",
+    "npm-check-updates": "^11.5.10",
     "prettier": "^2.3.0",
-    "snyk": "^1.575.0"
+    "snyk": "^.586.0"
   },
   "devDependencies": {
     "eslint": "^7.20.0",
