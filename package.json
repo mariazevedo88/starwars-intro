@@ -23,7 +23,7 @@
   "homepage": "https://github.com/mariazevedo88/starwars-intro#readme",
   "dependencies": {
     "eslint-friendly-formatter": "^3.0.0",
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "nodemon": "^2.0.15",
     "npm-check-updates": "^12.3.1",
     "prettier": "^2.5.1",
