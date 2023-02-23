@@ -26,7 +26,7 @@
     "express": "^4.18.2",
     "nodemon": "^2.0.20",
     "npm-check-updates": "^15.3.4",
-    "prettier": "^2.8.0",
+    "prettier": "^2.8.3",
     "snyk": "^1.1064.0"
   },
   "devDependencies": {
